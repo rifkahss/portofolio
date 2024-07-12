@@ -1,0 +1,64 @@
+body {
+    padding-top: 56px;
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(to right, #ffffff, #f8f9fa);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+#about {
+    background: linear-gradient(to right, #f8f9fa, #ffffff);
+    color: #333333;
+}
+
+#portofolio {
+    background: linear-gradient(to right, #ffffff, #f8f9fa);
+    color: #333333;
+}
+
+#contact {
+    background: linear-gradient(to right, #f8f9fa, #ffffff);
+    color: #333333;
+}
+
+.text-navy {
+    color: #001f3f;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.card-title {
+    color: #001f3f;
+}
+
+.btn-primary {
+    background-color: #001f3f;
+    border-color: #001f3f;
+}
+
+.btn-primary:hover {
+    background-color: #003366;
+    border-color: #003366;
+}
+
+.card-hover {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    text-align: justify;
+}
+
+.card-body {
+    text-align: justify;
+}
