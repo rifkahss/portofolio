@@ -1,68 +1,133 @@
-    body {
-        padding-top: 56px;
-        font-family: 'Lato', sans-serif;
-        background: linear-gradient(to right, #ffffff, #f8f9fa);
+body {
+    padding-top: 56px;
+    font-family: 'Lato', sans-serif;
+    background-color: #ffffff;
+    border: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+#about,
+#portofolio,
+#contact {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+}
+
+.card-title {
+    color: #001f3f;
+}
+
+.btn-primary {
+    background-color: #001f3f;
+    border-color: #001f3f;
+}
+
+.btn-primary:hover {
+    background-color: #003366;
+    border-color: #003366;
+}
+
+.card-hover {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container,
+.card-body {
+    text-align: justify;
+    background-color: #ffffff;
+}
+
+.skills-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.scrolling-wrapper {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.skills-inner {
+    display: flex;
+    gap: 0;
+    animation: scroll-left 20s linear infinite;
+}
+
+.skill-item {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+
+.skill-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.skill-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.skill-item:hover .skill-overlay {
+    opacity: 1;
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
     }
-    
-    .navbar-dark .navbar-nav .nav-link {
-        color: #ffffff;
+    to {
+        transform: translateX(-100%);
     }
-    
-    #about {
-        background: linear-gradient(to right, #f8f9fa, #ffffff);
-        color: #333333;
-    }
-    
-    #portofolio {
-        background: linear-gradient(to right, #ffffff, #f8f9fa);
-        color: #333333;
-    }
-    
-    #contact {
-        background: linear-gradient(to right, #f8f9fa, #ffffff);
-        color: #333333;
-    }
-    
-    .text-navy {
-        color: #001f3f;
-    }
-    
-    footer {
-        background-color: #333333;
-        color: #ffffff;
-    }
-    
-    .card-title {
-        color: #001f3f;
-    }
-    
-    .btn-primary {
-        background-color: #001f3f;
-        border-color: #001f3f;
-    }
-    
-    .btn-primary:hover {
-        background-color: #003366;
-        border-color: #003366;
-    }
-    
-    .card-hover {
-        transition: transform 0.3s, box-shadow 0.3s;
-    }
-    
-    .card-hover:hover {
-        transform: scale(1.05);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-    
-    .container {
-        text-align: justify;
-    }
-    
-    .card-body {
-        text-align: justify;
-    }
-    
-    .contact-info {
-        margin-bottom: 4px;
-    }
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contact-icon i {
+    font-size: 2rem;
+    color: #333;
+}
+
+.contact-icon i:hover {
+    color: #0056b3;
+}
