@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Profile and Portofolio</title>
+    <title>Profile - Rifkah Syam</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
@@ -14,24 +14,25 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Rifkah Syam's Profile</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html"><strong>Rifkah Syam's Profile</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portofolio">Portofolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about"><strong>About</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portofolio"><strong>Portofolio</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills"><strong>Skills</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact"><strong>Contact</strong></a>
+                </li>
+            </ul>
         </div>
     </nav>
 
@@ -40,10 +41,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <img src="profile.jpg" class="img-fluid rounded-circle mb-3" alt="Profile Picture">
+                    <img src="img/profile.jpg" class="img-fluid rounded-circle mb-3" alt="Profile Picture">
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-navy">About Me</h2>
+                    <h3 class="text-navy"><strong>About Me</strong></h3>
                     <br>
                     <p class="lead">I'm an Informatics student at Multimedia Nusantara University. I desire to improve my IT skills continuously and am eager to learn new things. Looking for opportunities to contribute to innovative projects, gain experience, and develop
                         knowledge.
@@ -54,18 +55,18 @@
     </section>
 
     <!-- Portofolio Section -->
-    <section id="portofolio" class="bg-light py-5">
+    <section id="portofolio" class="py-5">
         <div class="container">
-            <h2 class="text-center text-navy">Portofolio</h2>
+            <h3 class="text-center text-navy"><strong>Portofolio</strong></h3>
             <br>
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="card card-hover">
                         <a href="https://github.com/rifkahss/dJogja" target="_blank">
-                            <img src="portofolio1.jpg" class="card-img-top" alt="Project 1">
+                            <img src="img/portofolio1.jpg" class="card-img-top" alt="Project 1">
                         </a>
                         <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
+                            <h5 class="card-title"><strong>Djogja Web</strong></h5>
                             <p class="card-text">This project was created to fulfill the final exam assignment for the Intro to Internet Technology course. Djogja Web introduces various information about Yogyakarta province.</p>
                         </div>
                     </div>
@@ -73,10 +74,10 @@
                 <div class="col-md-4 mb-4">
                     <div class="card card-hover">
                         <a href="https://github.com/rifkahss/UTS-WEBPROG" target="_blank">
-                            <img src="portofolio2.jpg" class="card-img-top" alt="Project 2">
+                            <img src="img/portofolio2.jpg" class="card-img-top" alt="Project 2">
                         </a>
                         <div class="card-body">
-                            <h5 class="card-title">Project 2</h5>
+                            <h5 class="card-title"><strong>Digital Restaurant Menu</strong></h5>
                             <p class="card-text">This project was created to fulfill the midterm exam assignment for the Web Programming course. Barokah Sentosa Web is a digital menu and ordering system for a restaurant.</p>
                         </div>
                     </div>
@@ -84,10 +85,10 @@
                 <div class="col-md-4 mb-4">
                     <div class="card card-hover">
                         <a href="https://github.com/rifkahss/UASPEMWEB" target="_blank">
-                            <img src="portofolio3.jpg" class="card-img-top" alt="Project 3">
+                            <img src="img/portofolio3.jpg" class="card-img-top" alt="Project 3">
                         </a>
                         <div class="card-body">
-                            <h5 class="card-title">Project 3</h5>
+                            <h5 class="card-title"><strong>Digital Shop</strong></h5>
                             <p class="card-text">This project was created to fulfill the final exam assignment for a semester of the Web Programming course. Web digital shops are used for digital art buying and selling activities.</p>
                         </div>
                     </div>
@@ -96,28 +97,158 @@
         </div>
     </section>
 
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h3 class="text-center text-navy"><strong>Skills</strong></h3><br>
+            <div class="skills-container">
+                <div class="scrolling-wrapper">
+                    <div class="skills-inner">
+                        <div class="skill-item">
+                            <img src="img/c-logo.jpg" alt="C">
+                            <div class="skill-overlay">C</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/html-logo.jpg" alt="HTML">
+                            <div class="skill-overlay">HTML</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/css-logo.jpg" alt="CSS">
+                            <div class="skill-overlay">CSS</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/bootstrap-logo.jpg" alt="Bootstrap">
+                            <div class="skill-overlay">Bootstrap</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/react-logo.jpg" alt="ReactJS">
+                            <div class="skill-overlay">React.js</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/javascript-logo.jpg" alt="JavaScript">
+                            <div class="skill-overlay">JavaScript</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/php-logo.jpg" alt="PHP">
+                            <div class="skill-overlay">PHP</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/r-logo.jpg" alt="R">
+                            <div class="skill-overlay">R</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/prolog-logo.jpg" alt="Prolog">
+                            <div class="skill-overlay">Prolog</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/mysql-logo.jpg" alt="MySQL">
+                            <div class="skill-overlay">MySQL</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/python-logo.jpg" alt="Python">
+                            <div class="skill-overlay">Python</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/java-logo.jpg" alt="Java">
+                            <div class="skill-overlay">Java</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/laravel-logo.jpg" alt="Laravel">
+                            <div class="skill-overlay">Laravel</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/figma-logo.jpg" alt="Figma">
+                            <div class="skill-overlay">Figma</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/seo-logo.jpg" alt="SEO">
+                            <div class="skill-overlay">SEO</div>
+                        </div>
+                    </div>
+                    <div class="skills-inner">
+                        <div class="skill-item">
+                            <img src="img/c-logo.jpg" alt="C">
+                            <div class="skill-overlay">C</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/html-logo.jpg" alt="HTML">
+                            <div class="skill-overlay">HTML</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/css-logo.jpg" alt="CSS">
+                            <div class="skill-overlay">CSS</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/bootstrap-logo.jpg" alt="Bootstrap">
+                            <div class="skill-overlay">Bootstrap</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/react-logo.jpg" alt="ReactJS">
+                            <div class="skill-overlay">React.js</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/javascript-logo.jpg" alt="JavaScript">
+                            <div class="skill-overlay">JavaScript</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/php-logo.jpg" alt="PHP">
+                            <div class="skill-overlay">PHP</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/r-logo.jpg" alt="R">
+                            <div class="skill-overlay">R</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/prolog-logo.jpg" alt="Prolog">
+                            <div class="skill-overlay">Prolog</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/mysql-logo.jpg" alt="MySQL">
+                            <div class="skill-overlay">MySQL</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/python-logo.jpg" alt="Python">
+                            <div class="skill-overlay">Python</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/java-logo.jpg" alt="Java">
+                            <div class="skill-overlay">Java</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/laravel-logo.jpg" alt="Laravel">
+                            <div class="skill-overlay">Laravel</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/figma-logo.jpg" alt="Figma">
+                            <div class="skill-overlay">Figma</div>
+                        </div>
+                        <div class="skill-item">
+                            <img src="img/seo-logo.jpg" alt="SEO">
+                            <div class="skill-overlay">SEO</div>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="py-5">
         <div class="container">
-            <h2 class="text-center text-navy">Contact</h2>
-            <br>
+            <h3 class="text-center text-navy"><strong>Contact</strong></h3>
             <div class="row">
-                <div class="col-md-6 offset-md-3 text-center">
-                    <p class="contact-info">
-                        <a href="mailto:rfkhikaa@gmail.com" target="_blank">
-                            <i class="fa fa-envelope"></i> rfkhikaa@gmail.com
+                <div class="col-md-6 offset-md-3">
+                    <div class="contact-icons text-center">
+                        <a href="mailto:rfkhikaa@gmail.com" target="_blank" class="contact-icon">
+                            <i class="fa fa-envelope"></i>
                         </a>
-                    </p>
-                    <p class="contact-info">
-                        <a href="https://www.linkedin.com/in/rifkahsyam" target="_blank">
-                            <i class="fa fa-linkedin"></i> rifkahsyam
+                        <a href="https://www.linkedin.com/in/rifkahsyam" target="_blank" class="contact-icon">
+                            <i class="fa fa-linkedin"></i>
                         </a>
-                    </p>
-                    <p class="contact-info">
-                        <a href="https://github.com/rifkahss" target="_blank">
-                            <i class="fa fa-github"></i> rifkahss
+                        <a href="https://github.com/rifkahss" target="_blank" class="contact-icon">
+                            <i class="fa fa-github"></i>
                         </a>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
