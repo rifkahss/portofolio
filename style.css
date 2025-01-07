@@ -33,6 +33,7 @@ footer a:hover {
 #portofolio,
 #organization,
 #skills,
+#certifications,
 #contact {
     background-color: #ffffff;
     color: #00022e;
@@ -234,6 +235,44 @@ footer a:hover {
     }
     to {
         transform: translateX(-100%);
+    }
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+}
+
+table th,
+table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+table th {
+    background-color: #001f3f;
+    color: #fff;
+}
+
+table tbody tr:hover {
+    background-color: #e0f7fa;
+    cursor: pointer;
+}
+
+table td a {
+    text-decoration: none;
+    color: #fff;
+}
+
+table td a:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    table td,
+    table th {
+        font-size: 0.9rem;
     }
 }
 
