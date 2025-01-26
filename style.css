@@ -28,13 +28,40 @@ footer a:hover {
     color: #ffffff;
 }
 
-#about,
-#experience,
-#portofolio,
-#organization,
-#skills,
-#certifications,
+.container,
+.row,
+.col-lg-4,
+.col-lg-8 {
+    background: transparent !important;
+}
+
+#about {
+    color: #00022e;
+    background: linear-gradient(to bottom, rgb(60, 80, 150), rgb(150, 180, 220), white);
+}
+
+#portofolio {
+    color: #00022e;
+    background: linear-gradient(to bottom, white, rgb(150, 180, 220));
+}
+
+#organization {
+    color: #00022e;
+    background: linear-gradient(to top, white, rgb(150, 180, 220));
+}
+
+#certifications {
+    color: #00022e;
+    background: linear-gradient(to top, rgb(150, 180, 220), white)
+}
+
 #contact {
+    color: #00022e;
+    background: linear-gradient(to top, rgb(60, 80, 150), rgb(150, 180, 220));
+}
+
+#experience,
+#skills {
     background-color: #ffffff;
     color: #00022e;
 }
@@ -104,7 +131,7 @@ footer a:hover {
 }
 
 .organization-card {
-    background-color: #ffffff;
+    background-color: transparent;
     padding: 20px;
     text-align: center;
 }
@@ -242,6 +269,7 @@ table {
     width: 100%;
     margin-top: 20px;
     background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 table th,
@@ -289,5 +317,5 @@ table td a:hover {
 }
 
 .contact-icon i:hover {
-    color: #0056b3;
+    color: #001f3f;
 }
