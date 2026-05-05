@@ -6,76 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile - Rifkah Syam</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
         <a class="navbar-brand" href="index.html"><strong>Rifkah Syam's Profile</strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <i class="fa fa-bars" style="color: #2C3E50; font-size: 1.5rem;"></i>
+        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about"><strong>About</strong></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#experience"><strong>Experience</strong></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portofolio"><strong>Portofolio</strong></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#organization"><strong>Organization</strong></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills"><strong>Skills</strong></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#certifications"><strong>Certifications</strong></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact"><strong>Contact</strong></a>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="#about"><strong>About</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience"><strong>Experience</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="#portofolio"><strong>Portofolio</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="#organization"><strong>Organization</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills"><strong>Skills</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="#certifications"><strong>Certifications</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact"><strong>Contact</strong></a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- About Section -->
-    <section id="about" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 text-center">
-                    <img src="img/profile.jpg" class="profile-img img-fluid rounded-circle mb-3" alt="Profile Picture">
+    <section id="about" class="py-5 animate-on-scroll">
+        <div class="container mt-4">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                    <div class="profile-frame">
+                        <img src="img/profile.jpg" class="profile-img img-fluid rounded-circle" alt="Profile Picture">
+                    </div>
                 </div>
                 <div class="col-lg-8">
-                    <h3 class="text-navy"><strong>About Me</strong></h3>
-                    <br>
-                    <p class="lead" style="font-size: 1.0rem; line-height: 1.7;">
-                        As an Informatics student at Universitas Multimedia Nusantara, I am enthusiastic about continuing to develop my skills and exploring new technologies. I am always motivated to learn and grow and want to contribute to projects that positively impact me.
-                        I have experience in various programming languages, such as PHP, JavaScript, and so on, and I continue to build skills in software development. I have worked on full-stack web application projects, focusing on improving user experience
-                        through responsive design and easy-to-use functionality. I gained experience in integrating complex systems, managing databases, and creating user-friendly features from these projects. In addition to technical skills, I also have
-                        good cooperation and leadership abilities. I aim to continue learning through practical experience, expand my knowledge, and positively contribute to technology. I am always open to connecting with professionals and exploring new
-                        opportunities in the technology industry.
-                    </p>
+                    <div class="about-card">
+                        <h3 class="text-navy mb-4"><strong>About Me</strong></h3>
+                        <p class="lead" style="font-size: 1.05rem; line-height: 1.8;">
+                            As an Informatics student at Universitas Multimedia Nusantara, I am enthusiastic about continuing to develop my skills and exploring new technologies. I am always motivated to learn and grow and want to contribute to projects that positively impact me.
+                        </p>
+                        <p style="font-size: 1rem; line-height: 1.7;">
+                            I have experience in various programming languages, such as PHP, JavaScript, and so on, and I continue to build skills in software development. I have worked on full-stack web application projects, focusing on improving user experience through responsive
+                            design and easy-to-use functionality. I gained experience in integrating complex systems, managing databases, and creating user-friendly features from these projects. In addition to technical skills, I also have good cooperation
+                            and leadership abilities. I aim to continue learning through practical experience, expand my knowledge, and positively contribute to technology. I am always open to connecting with professionals and exploring new opportunities
+                            in the technology industry.
+                        </p>
+                        <div class="about-badge mt-4">
+                            <span><i class="fa fa-code"></i> Full-Stack</span>
+                            <span><i class="fa fa-laptop"></i> Web Development</span>
+                            <span><i class="fa fa-rocket"></i> Tech Enthusiast</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="py-5">
+    <section id="experience" class="py-5 animate-on-scroll">
         <div class="container">
-            <h3 class="text-center text-navy"><strong>Experience</strong></h3>
+            <h3 class="text-center text-navy mb-5"><strong>Experience</strong></h3>
             <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h4><strong>Web Developer Intern</strong></h4>
-                    <p>Ruang Kolaborasi Nusantara, Jakarta | September 2024 – January 2025</p>
-                    <ul>
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h4 class="text-navy"><strong>Web Developer Intern</strong></h4>
+                    <p class="font-weight-bold text-muted">Ruang Kolaborasi Nusantara, Jakarta | September 2024 – January 2025</p>
+                    <ul class="experience-list">
                         <li>Website Revision: Manage content, menu, and appearance updates to improve branding and UX.</li>
                         <li>UX/UI Optimization: Improving the Website layout to be more user-friendly, with an emphasis on an intuitive access experience.</li>
                         <li>Menu Development: Simplified navigation by combining event and product content and added a collaboration menu.</li>
@@ -94,146 +87,144 @@
         </div>
     </section>
 
-    <!-- Portofolio Section -->
-    <section id="portofolio" class="py-5">
+    <section id="portofolio" class="py-5 animate-on-scroll">
         <div class="container">
-            <h3 class="text-center text-navy"><strong>Portofolio</strong></h3>
-            <br>
+            <h3 class="text-center text-navy mb-5"><strong>Portofolio</strong></h3>
             <div class="row">
-                <div class="col-md-3 mb-4">
-                    <div class="card card-hover">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card card-hover h-100">
                         <a href="https://drive.google.com/file/d/1QvlWVkYsXrur_BJbTjgCxREFo3Ar9bFl/view?usp=sharing" target="_blank">
                             <img src="img/portofolio1.jpg" class="card-img-top" alt="Project 1">
                         </a>
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-center"><strong>Djogja Web</strong></h5>
-                            <p class="card-text">This project was created to fulfill the final exam assignment for the Intro to Internet Technology course. Djogja Web introduces various information about Yogyakarta province.</p>
+                            <p class="card-text flex-grow-1">This project was created to fulfill the final exam assignment for the Intro to Internet Technology course. Djogja Web introduces various information about Yogyakarta province.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card card-hover">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card card-hover h-100">
                         <a href="https://drive.google.com/file/d/1fv6PmwR5utEyjn2rhGuJpyvK5pm8LRdA/view?usp=sharing" target="_blank">
                             <img src="img/portofolio2.jpg" class="card-img-top" alt="Project 2">
                         </a>
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-center"><strong>Digital Menu</strong></h5>
-                            <p class="card-text">This project was created to fulfill the midterm exam assignment for the Web Programming course. Barokah Sentosa Web is a digital menu and ordering system for a restaurant.</p>
+                            <p class="card-text flex-grow-1">This project was created to fulfill the midterm exam assignment for the Web Programming course. Barokah Sentosa Web is a digital menu and ordering system for a restaurant.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card card-hover">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card card-hover h-100">
                         <a href="https://drive.google.com/file/d/1lbfNwdosd1ZJF8BhkO9zYhrPz3sJb2o8/view?usp=sharing" target="_blank">
                             <img src="img/portofolio3.jpg" class="card-img-top" alt="Project 3">
                         </a>
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-center"><strong>Digital Shop</strong></h5>
-                            <p class="card-text">This project was created to fulfill the final exam assignment for a semester of the Web Programming course. Web digital shops are used for digital art buying and selling activities.</p>
+                            <p class="card-text flex-grow-1">This project was created to fulfill the final exam assignment for a semester of the Web Programming course. Web digital shops are used for digital art buying and selling activities.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card card-hover">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card card-hover h-100">
                         <a href="https://drive.google.com/file/d/1JMOjxkXCU89tDKLk6Ka86cZPLRXgTXjP/view?usp=sharing" target="_blank">
                             <img src="img/portofolio4.png" class="card-img-top" alt="Project 4">
                         </a>
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-center"><strong>Web Wisata</strong></h5>
-                            <p class="card-text">This project was created to fulfill the final Junior Web Developer training project by Digitalent - Kominfo. This web is used to display tour profiles and online tour package reservations.</p>
+                            <p class="card-text flex-grow-1">This project was created to fulfill the final Junior Web Developer training project by Digitalent - Kominfo. This web is used to display tour profiles and online tour package reservations.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 mb-4">
-                    <div class="card card-hover">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card card-hover h-100">
                         <a href="https://drive.google.com/file/d/1q9HVaxflDV8C8moCIBn5Zs2htRc4WA02/view?usp=sharing" target="_blank">
                             <img src="img/portofolio5.jpg" class="card-img-top" alt="Project 5">
                         </a>
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-center"><strong>Google Keep App</strong></h5>
-                            <p class="card-text">This project was created to fulfill an individual assessment assignment from the Cross-Platform Programming course. This project replicates the Google Keep application and uses React Native and Expo.</p>
+                            <p class="card-text flex-grow-1">This project was created to fulfill an individual assessment assignment from the Cross-Platform Programming course. This project replicates the Google Keep application and uses React Native and Expo.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card card-hover">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card card-hover h-100">
                         <a href="https://drive.google.com/file/d/1-HvNgPG8HMaGRHZRkJFmA92i6ukf8Ne1/view?usp=sharing" target="_blank">
                             <img src="img/portofolio6.png" class="card-img-top" alt="Project 6">
                         </a>
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-center"><strong>Barter Items App</strong></h5>
-                            <p class="card-text">This project was created to fulfill the final semester exam assignment for the Mobile Cross-Platform Programming course. It is built using React Native and can be used to barter or exchange goods without involving payment.</p>
+                            <p class="card-text flex-grow-1">This project was created to fulfill the final semester exam assignment for the Mobile Cross-Platform Programming course. It is built using React Native and can be used to barter or exchange goods without involving payment.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card card-hover">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card card-hover h-100">
                         <a href="https://drive.google.com/file/d/12VKYgQSyIQa2WUOPlv87SKcZaTqlsxEy/view?usp=sharing" target="_blank">
                             <img src="img/portofolio7.png" class="card-img-top" alt="Project 7">
                         </a>
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-center"><strong>Bartems Android App</strong></h5>
-                            <p class="card-text">This project was created to fulfill the final semester exam assignment for the Mobile Application Programming course. Bartems, used to exchange goods, was built with Android Studio using the Kotlin programming language.</p>
+                            <p class="card-text flex-grow-1">This project was created to fulfill the final semester exam assignment for the Mobile Application Programming course. Bartems, used to exchange goods, was built with Android Studio using the Kotlin programming language.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card card-hover">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card card-hover h-100">
                         <a href="https://drive.google.com/file/d/1CIBfECePjJCXgn8nKXIyFQFjRyv3bC4t/view?usp=sharing" target="_blank">
                             <img src="img/portofolio8.jpg" class="card-img-top" alt="Project 8">
                         </a>
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-center"><strong>Jumanji Labyrinth</strong></h5>
-                            <p class="card-text">This project was created to fulfill the final semester exam assignment for the Computer Graphics and Animation course. In this game, the player must collect gems in a maze that are placed randomly.</p>
+                            <p class="card-text flex-grow-1">This project was created to fulfill the final semester exam assignment for the Computer Graphics and Animation course. In this game, the player must collect gems in a maze that are placed randomly.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 mb-4">
-                    <div class="card card-hover">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card card-hover h-100">
                         <a href="https://drive.google.com/file/d/1BrnhpSzn05XWxF1I9MVagHW09FzhIONZ/view?usp=sharing" target="_blank">
                             <img src="img/portofolio9.png" class="card-img-top" alt="Project 9">
                         </a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center"><strong>Comparative Analysis of Expenditure per Capita of the Indonesian Population in 2022 and 2023</strong></h5>
-                            <p class="card-text">This project was created to fulfill the final exam assignment for the Probability and Statistics course. This research aims to build a basis for more targeted economic and regional development policies.</p>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title text-center"><strong>Comparative Analysis of Expenditure per Capita</strong></h5>
+                            <p class="card-text flex-grow-1">This project was created to fulfill the final exam assignment for the Probability and Statistics course. This research aims to build a basis for more targeted economic and regional development policies.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card card-hover">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card card-hover h-100">
                         <a href="https://drive.google.com/file/d/1RRAxwunjvGyQeHXO4mGp9DtCNRZ6pIss/view?usp=sharing" target="_blank">
                             <img src="img/portofolio10.png" class="card-img-top" alt="Project 10">
                         </a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center"><strong>Shortest Path Optimization Using BFS in Real-life Cases: a Review</strong></h5>
-                            <p class="card-text">This project was created to fulfill the final exam assignment of the Algorithm Design & Analysis course. This study aims to provide valuable insights for researchers and practitioners on the practical implications of BFS in
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title text-center"><strong>Shortest Path Optimization Using BFS</strong></h5>
+                            <p class="card-text flex-grow-1">This project was created to fulfill the final exam assignment of the Algorithm Design & Analysis course. This study aims to provide valuable insights for researchers and practitioners on the practical implications of BFS in
                                 shortest-path optimization.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card card-hover">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card card-hover h-100">
                         <a href="https://drive.google.com/file/d/11KPs8P0yozfMRls5hO2seJx1KD78hndD/view?usp=sharing" target="_blank">
                             <img src="img/portofolio11.png" class="card-img-top" alt="Project 11">
                         </a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center"><strong>Predictive Analysis of Cardiovascular Disease Risk Using the K-Nearest Neighbors Algorithm</strong></h5>
-                            <p class="card-text">This project was created to fulfill the final exam assignment for the Machine Learning course. This research confirms the potential of the k-NN algorithm to help medical personnel detect the risk of PKV early.</p>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title text-center"><strong>Predictive Analysis of Cardiovascular Disease Risk Using k-NN</strong></h5>
+                            <p class="card-text flex-grow-1">This project was created to fulfill the final exam assignment for the Machine Learning course. This research confirms the potential of the k-NN algorithm to help medical personnel detect the risk of PKV early.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card card-hover">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card card-hover h-100">
                         <a href="https://drive.google.com/file/d/1i7d0HlcI2KQjjFPWZHDobtHXumDdeG4I/view?usp=sharing" target="_blank">
                             <img src="img/portofolio12.png" class="card-img-top" alt="Project 12">
                         </a>
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-center"><strong>Stock Portfolio Optimization Using Genetic Algorithm</strong></h5>
-                            <p class="card-text">This project was created to fulfill the final exam assignment for the Expert System course. It involves creating an optimization program that considers return, risk, and investment limits, such as minimum and maximum limits
+                            <p class="card-text flex-grow-1">This project was created to fulfill the final exam assignment for the Expert System course. It involves creating an optimization program that considers return, risk, and investment limits, such as minimum and maximum limits
                                 for asset weights.</p>
                         </div>
                     </div>
@@ -242,35 +233,34 @@
         </div>
     </section>
 
-    <!-- Organization Section -->
-    <section id="organization" class="py-5">
+    <section id="organization" class="py-5 animate-on-scroll">
         <div class="container">
-            <h3 class="text-center text-navy"><strong>Organization</strong></h3>
+            <h3 class="text-center text-navy mb-5"><strong>Organization</strong></h3>
             <div class="row">
-                <div class="col-lg-4 mb-4">
-                    <div class="organization-card">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="organization-card h-100">
                         <h4 class="organization-name"><strong>Ashandya UMN 2023</strong></h4>
-                        <p>Registration Division Coordinator | October 2023 – April 2024</p>
+                        <p class="text-muted">Registration Division Coordinator <br> <small>October 2023 – April 2024</small></p>
                         <div class="organization-photos">
                             <img src="img/orga1.jpg" alt="Ashandya 1" class="org-photo">
                             <img src="img/orga2.jpg" alt="Ashandya 2" class="org-photo">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-4">
-                    <div class="organization-card">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="organization-card h-100">
                         <h4 class="organization-name"><strong>Tracce UMN</strong></h4>
-                        <p>Division Representative | January 2023 – December 2023</p>
+                        <p class="text-muted">Division Representative <br> <small>January 2023 – December 2023</small></p>
                         <div class="organization-photos">
                             <img src="img/orga3.jpg" alt="Tracce 1" class="org-photo">
                             <img src="img/orga4.jpg" alt="Tracce 2" class="org-photo">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-4">
-                    <div class="organization-card">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="organization-card h-100">
                         <h4 class="organization-name"><strong>U-LOVE 2023</strong></h4>
-                        <p>Media Partner Division | May 2023 - November 2023</p>
+                        <p class="text-muted">Media Partner Division <br> <small>May 2023 - November 2023</small></p>
                         <div class="organization-photos">
                             <img src="img/orga5.jpg" alt="Ulove 1" class="org-photo">
                             <img src="img/orga6.jpg" alt="Ulove 2" class="org-photo">
@@ -281,163 +271,127 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="py-5">
+    <section id="skills" class="py-5 animate-on-scroll">
         <div class="container">
-            <h3 class="text-center text-navy"><strong>Skills</strong></h3><br>
+            <h3 class="text-center text-navy mb-4"><strong>Skills</strong></h3>
             <div class="skills-container">
                 <div class="scrolling-wrapper">
                     <div class="skills-inner">
-                        <div class="skill-item">
-                            <img src="img/c-logo.jpg" alt="C">
+                        <div class="skill-item"><img src="img/c-logo.jpg" alt="C">
                             <div class="skill-overlay">C</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/html-logo.jpg" alt="HTML">
+                        <div class="skill-item"><img src="img/html-logo.jpg" alt="HTML">
                             <div class="skill-overlay">HTML</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/css-logo.jpg" alt="CSS">
+                        <div class="skill-item"><img src="img/css-logo.jpg" alt="CSS">
                             <div class="skill-overlay">CSS</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/bootstrap-logo.jpg" alt="Bootstrap">
+                        <div class="skill-item"><img src="img/bootstrap-logo.jpg" alt="Bootstrap">
                             <div class="skill-overlay">Bootstrap</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/react-logo.jpg" alt="React">
+                        <div class="skill-item"><img src="img/react-logo.jpg" alt="React">
                             <div class="skill-overlay">React</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/javascript-logo.jpg" alt="JavaScript">
+                        <div class="skill-item"><img src="img/javascript-logo.jpg" alt="JavaScript">
                             <div class="skill-overlay">JavaScript</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/php-logo.jpg" alt="PHP">
+                        <div class="skill-item"><img src="img/php-logo.jpg" alt="PHP">
                             <div class="skill-overlay">PHP</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/r-logo.jpg" alt="R">
+                        <div class="skill-item"><img src="img/r-logo.jpg" alt="R">
                             <div class="skill-overlay">R</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/prolog-logo.jpg" alt="Prolog">
+                        <div class="skill-item"><img src="img/prolog-logo.jpg" alt="Prolog">
                             <div class="skill-overlay">Prolog</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/mysql-logo.jpg" alt="MySQL">
+                        <div class="skill-item"><img src="img/mysql-logo.jpg" alt="MySQL">
                             <div class="skill-overlay">MySQL</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/python-logo.jpg" alt="Python">
+                        <div class="skill-item"><img src="img/python-logo.jpg" alt="Python">
                             <div class="skill-overlay">Python</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/java-logo.jpg" alt="Java">
+                        <div class="skill-item"><img src="img/java-logo.jpg" alt="Java">
                             <div class="skill-overlay">Java</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/laravel-logo.jpg" alt="Laravel">
+                        <div class="skill-item"><img src="img/laravel-logo.jpg" alt="Laravel">
                             <div class="skill-overlay">Laravel</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/figma-logo.jpg" alt="Figma">
+                        <div class="skill-item"><img src="img/figma-logo.jpg" alt="Figma">
                             <div class="skill-overlay">Figma</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/seo-logo.jpg" alt="SEO">
+                        <div class="skill-item"><img src="img/seo-logo.jpg" alt="SEO">
                             <div class="skill-overlay">SEO</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/kotlin-logo.jpg" alt="Kotlin">
+                        <div class="skill-item"><img src="img/kotlin-logo.jpg" alt="Kotlin">
                             <div class="skill-overlay">Kotlin</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/unity-logo.jpg" alt="Unity">
+                        <div class="skill-item"><img src="img/unity-logo.jpg" alt="Unity">
                             <div class="skill-overlay">Unity</div>
                         </div>
                     </div>
                     <div class="skills-inner">
-                        <div class="skill-item">
-                            <img src="img/c-logo.jpg" alt="C">
+                        <div class="skill-item"><img src="img/c-logo.jpg" alt="C">
                             <div class="skill-overlay">C</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/html-logo.jpg" alt="HTML">
+                        <div class="skill-item"><img src="img/html-logo.jpg" alt="HTML">
                             <div class="skill-overlay">HTML</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/css-logo.jpg" alt="CSS">
+                        <div class="skill-item"><img src="img/css-logo.jpg" alt="CSS">
                             <div class="skill-overlay">CSS</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/bootstrap-logo.jpg" alt="Bootstrap">
+                        <div class="skill-item"><img src="img/bootstrap-logo.jpg" alt="Bootstrap">
                             <div class="skill-overlay">Bootstrap</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/react-logo.jpg" alt="React">
+                        <div class="skill-item"><img src="img/react-logo.jpg" alt="React">
                             <div class="skill-overlay">React</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/javascript-logo.jpg" alt="JavaScript">
-                            <div class="skill-overlay ">JavaScript</div>
+                        <div class="skill-item"><img src="img/javascript-logo.jpg" alt="JavaScript">
+                            <div class="skill-overlay">JavaScript</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/php-logo.jpg" alt="PHP">
+                        <div class="skill-item"><img src="img/php-logo.jpg" alt="PHP">
                             <div class="skill-overlay">PHP</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/r-logo.jpg" alt="R">
+                        <div class="skill-item"><img src="img/r-logo.jpg" alt="R">
                             <div class="skill-overlay">R</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/prolog-logo.jpg" alt="Prolog">
+                        <div class="skill-item"><img src="img/prolog-logo.jpg" alt="Prolog">
                             <div class="skill-overlay">Prolog</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/mysql-logo.jpg" alt="MySQL">
+                        <div class="skill-item"><img src="img/mysql-logo.jpg" alt="MySQL">
                             <div class="skill-overlay">MySQL</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/python-logo.jpg" alt="Python">
+                        <div class="skill-item"><img src="img/python-logo.jpg" alt="Python">
                             <div class="skill-overlay">Python</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/java-logo.jpg" alt="Java">
+                        <div class="skill-item"><img src="img/java-logo.jpg" alt="Java">
                             <div class="skill-overlay">Java</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/laravel-logo.jpg" alt="Laravel">
+                        <div class="skill-item"><img src="img/laravel-logo.jpg" alt="Laravel">
                             <div class="skill-overlay">Laravel</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/figma-logo.jpg" alt="Figma">
+                        <div class="skill-item"><img src="img/figma-logo.jpg" alt="Figma">
                             <div class="skill-overlay">Figma</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/seo-logo.jpg" alt="SEO">
+                        <div class="skill-item"><img src="img/seo-logo.jpg" alt="SEO">
                             <div class="skill-overlay">SEO</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/kotlin-logo.jpg" alt="Kotlin">
+                        <div class="skill-item"><img src="img/kotlin-logo.jpg" alt="Kotlin">
                             <div class="skill-overlay">Kotlin</div>
                         </div>
-                        <div class="skill-item">
-                            <img src="img/unity-logo.jpg" alt="Unity">
+                        <div class="skill-item"><img src="img/unity-logo.jpg" alt="Unity">
                             <div class="skill-overlay">Unity</div>
                         </div>
                     </div>
                 </div>
-            </div><br>
+            </div>
         </div>
     </section>
 
-    <!-- Certifications Section -->
-    <section id="certifications" class="py-5">
+    <section id="certifications" class="py-5 animate-on-scroll">
         <div class="container">
-            <h3 class="text-center text-navy"><strong>Certifications</strong></h3>
-            <div class="table-responsive">
-                <table class="table table-bordered table-hover">
+            <h3 class="text-center text-navy mb-4"><strong>Certifications</strong></h3>
+            <div class="table-responsive cert-table-wrapper">
+                <table class="table table-hover mb-0">
                     <thead>
                         <tr>
                             <th>#</th>
@@ -453,49 +407,49 @@
                             <td>Junior Web Developer</td>
                             <td>Badan Nasional Sertifikasi Profesi (BNSP)</td>
                             <td>October 2024</td>
-                            <td><a href="https://drive.google.com/file/d/1lviNjbHCvF4KqbWmLSlDGvORWbLZXMpX/view?usp=sharing" target="_blank" class="btn btn-primary">View Certificate</a></td>
+                            <td><a href="https://drive.google.com/file/d/1lviNjbHCvF4KqbWmLSlDGvORWbLZXMpX/view?usp=sharing" target="_blank" class="btn btn-primary btn-sm">View</a></td>
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>Junior Web Developer (Vocational School Graduate Academy)</td>
+                            <td>Junior Web Developer (VSGA)</td>
                             <td>Digital Talent Scholarship</td>
                             <td>August 2024</td>
-                            <td><a href="https://drive.google.com/file/d/16KVxrpd0GQF4149_I01avowPh-Sw_8Mk/view?usp=sharing" target="_blank" class="btn btn-primary">View Certificate</a></td>
+                            <td><a href="https://drive.google.com/file/d/16KVxrpd0GQF4149_I01avowPh-Sw_8Mk/view?usp=sharing" target="_blank" class="btn btn-primary btn-sm">View</a></td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>Problem Solving</td>
                             <td>HackerRank</td>
                             <td>July 2024</td>
-                            <td><a href="https://drive.google.com/file/d/1mO_Iqf1H-ZCMaHgy0s6Dc2Llp44BUy0o/view?usp=sharing" target="_blank" class="btn btn-primary">View Certificate</a></td>
+                            <td><a href="https://drive.google.com/file/d/1mO_Iqf1H-ZCMaHgy0s6Dc2Llp44BUy0o/view?usp=sharing" target="_blank" class="btn btn-primary btn-sm">View</a></td>
                         </tr>
                         <tr>
                             <td>4</td>
                             <td>HCIA-AI V3.5 Course</td>
                             <td>Huawei</td>
                             <td>May 2024</td>
-                            <td><a href="https://drive.google.com/file/d/18zvDs6MEvADrfC3tgxBQZy-6k-7guwgJ/view?usp=sharing" target="_blank" class="btn btn-primary">View Certificate</a></td>
+                            <td><a href="https://drive.google.com/file/d/18zvDs6MEvADrfC3tgxBQZy-6k-7guwgJ/view?usp=sharing" target="_blank" class="btn btn-primary btn-sm">View</a></td>
                         </tr>
                         <tr>
                             <td>5</td>
                             <td>Introduction to Python</td>
                             <td>Sololearn</td>
                             <td>February 2024</td>
-                            <td><a href="https://drive.google.com/file/d/1dGiTgGHkV3jOmgDxseNgV-CkyqXDoZLd/view?usp=sharing" target="_blank" class="btn btn-primary">View Certificate</a></td>
+                            <td><a href="https://drive.google.com/file/d/1dGiTgGHkV3jOmgDxseNgV-CkyqXDoZLd/view?usp=sharing" target="_blank" class="btn btn-primary btn-sm">View</a></td>
                         </tr>
                         <tr>
                             <td>6</td>
                             <td>Python Intermediate</td>
                             <td>Sololearn</td>
                             <td>April 2024</td>
-                            <td><a href="https://drive.google.com/file/d/1rUCYsSEEyfXXUdby-cSSCB8qA-6--F1h/view?usp=sharing" target="_blank" class="btn btn-primary">View Certificate</a></td>
+                            <td><a href="https://drive.google.com/file/d/1rUCYsSEEyfXXUdby-cSSCB8qA-6--F1h/view?usp=sharing" target="_blank" class="btn btn-primary btn-sm">View</a></td>
                         </tr>
                         <tr>
                             <td>7</td>
-                            <td>Google Trends and Search Engine Optimization (Digital Entrepreneurship Academy)</td>
+                            <td>Google Trends and SEO (DEA)</td>
                             <td>Digital Talent Scholarship</td>
                             <td>September 2023</td>
-                            <td><a href="https://drive.google.com/file/d/1hRD_NwYvHRC-L1IVzNcO64-XcMh-F25G/view?usp=sharing" target="_blank" class="btn btn-primary">View Certificate</a></td>
+                            <td><a href="https://drive.google.com/file/d/1hRD_NwYvHRC-L1IVzNcO64-XcMh-F25G/view?usp=sharing" target="_blank" class="btn btn-primary btn-sm">View</a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -503,20 +457,19 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
+    <section id="contact" class="py-5 animate-on-scroll">
         <div class="container">
-            <h3 class="text-center text-navy"><strong>Contact</strong></h3>
+            <h3 class="text-center text-navy mb-4"><strong>Contact</strong></h3>
             <div class="row">
                 <div class="col-md-6 offset-md-3">
                     <div class="contact-icons text-center">
-                        <a href="mailto:rifkahsyams@gmail.com" target="_blank" class="contact-icon">
+                        <a href="mailto:rifkahsyams@gmail.com" target="_blank" class="contact-icon" title="Email">
                             <i class="fa fa-envelope"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/rifkahsyam" target="_blank" class="contact-icon">
+                        <a href="https://www.linkedin.com/in/rifkahsyam" target="_blank" class="contact-icon" title="LinkedIn">
                             <i class="fa fa-linkedin"></i>
                         </a>
-                        <a href="https://github.com/rifkahss" target="_blank" class="contact-icon">
+                        <a href="https://github.com/rifkahss" target="_blank" class="contact-icon" title="GitHub">
                             <i class="fa fa-github"></i>
                         </a>
                     </div>
@@ -525,14 +478,35 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="text-white text-center py-3">
-        <p>&copy; 2024 by <a href="http://instagram.com/rifkahsym_">Rifkah Syam</a></p>
+    <footer class="text-white text-center py-4">
+        <p class="mb-0">&copy; 2024 by <a href="http://instagram.com/rifkahsym_" target="_blank">Rifkah Syam</a></p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.15
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.animate-on-scroll').forEach((el) => {
+                observer.observe(el);
+            });
+        });
+    </script>
 </body>
 
 </html>
